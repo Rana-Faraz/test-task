@@ -32,6 +32,6 @@ npx expo eject
 
 ## Details
 
-For Authentication **Firebase Authentication** was used.
-And to retain the login state the logged in users **UID** is being stored to device using **AsyncStorage**.
+For Authentication **Firebase Authentication** was used. For global state management **Redux** is being used and as a middleware **Redux-Thunk**.
+To retain the login state the logged in users **UID** is being stored to device using **AsyncStorage**.
 Data is Being stored in **Firestore**.
